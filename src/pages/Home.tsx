@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import HeroCover from "../components/home/Banner";
+import Footer from "../components/home/Footer";
 import GameCta from "../components/home/GameCta";
 import Roadmap from "../components/home/Roadmap";
 import TokenSwap from "../components/home/TokenSwap";
@@ -14,6 +15,7 @@ function Home() {
       <GameCta />
       <TokenSwap />
       <Roadmap />
+      <Footer />
     </main>
   );
 }
