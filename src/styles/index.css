@@ -3,3 +3,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.blobby-animation {
+  animation: blobby 4s linear infinite;
+}
+@keyframes blobby {
+  0% {
+    transform: translateY(-30px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
+}
+
+.text-shadow {
+  text-shadow: -5px 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.button-shadow {
+  filter: drop-shadow(-5px 4px 4px rgba(0, 0, 0, 0.25));
+}
