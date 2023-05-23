@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import PancakeswapImg from "../../assets/image/pancakeswap.svg";
-import BnbImg from "../../assets/image/BNB.png";
+import BnbImg from "../../assets/image/bnb.png";
 
 export default function TokenSwap() {
   return (
@@ -10,7 +10,7 @@ export default function TokenSwap() {
         background: "linear-gradient(180deg, #2B2B2B 0%, #000000 100%)",
       }}
     >
-      <div className="mx-auto max-w-[720px] py-40">
+      <div className="mx-auto max-w-[720px] pt-40 pb-[200px]">
         <h1 className="uppercase text-primary font-primary font-extrabold text-[56px] text-center">
           $Blobby token
         </h1>
@@ -44,7 +44,7 @@ export default function TokenSwap() {
       />
       <img
         src={BnbImg}
-        className="absolute rotate-[30deg] bottom-5 right-5 z-10 w-[90px] h-[90px] blur-sm"
+        className="absolute rotate-[30deg] bottom-7 right-5 z-10 w-[90px] h-[90px] blur-sm"
       />
     </div>
   );
