@@ -15,9 +15,9 @@ export default function Header() {
       <div className="container mx-auto" style={{ maxWidth: 1180 }}>
         <div className="flex justify-between">
           <div className="">
-            <h2 className="font-secondary text-primary text-[32px]">
+            <NavLink to="/" className="font-secondary text-primary text-[32px]">
               MrBlobby
-            </h2>
+            </NavLink>
           </div>
           <div className="flex items-center">
             <div className="flex items-center mr-6">
