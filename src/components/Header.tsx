@@ -8,10 +8,11 @@ import {
 } from "./SvgIcons";
 import { NavLink } from "react-router-dom";
 
-export default function Header() {
+export default function Header(props: { className?: string }) {
+  const { className } = props;
   const { pathname } = useLocation();
   return (
-    <header className="py-4 bg-dark">
+    <header className={`py-4 bg-dark ${className ? className : ""}`}>
       <div className="container mx-auto" style={{ maxWidth: 1180 }}>
         <div className="flex justify-between">
           <div className="">
@@ -38,6 +39,16 @@ export default function Header() {
                 }`}
               >
                 Whitepaper
+              </NavLink>
+              <NavLink
+                to="/bubble-shooter"
+                className={`font-secondary text-primary px-2 text-[18px] mr-6 ${
+                  pathname === "/bubble-shooter"
+                    ? " border-b-2 border-primary -mb-0.5"
+                    : ""
+                }`}
+              >
+                Bubble Shooter
               </NavLink>
             </div>
             <div className="flex items-center gap-4">

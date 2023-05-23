@@ -4,6 +4,7 @@ import "./styles/index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import Whitepaper from "./pages/Whitepaper";
+import BubbleShooter from "./pages/BubbleShooter";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "/whitepaper",
     element: <Whitepaper />,
+  },
+  {
+    path: "/bubble-shooter",
+    element: <BubbleShooter />,
   },
 ]);
 

@@ -7,9 +7,10 @@ import {
   YoutubuIcon,
 } from "../SvgIcons";
 
-export default function Footer() {
+export default function Footer(props: { className?: string }) {
+  const { className } = props;
   return (
-    <footer className="py-20 bg-dark">
+    <footer className={`py-20 bg-dark ${className ? className : ""}`}>
       <div className="flex flex-col items-center justify-center">
         <div className="flex items-center gap-4">
           <Link to="https://www.facebook.com/BritainsGotTalent" target="_blank">
