@@ -30,3 +30,11 @@
 .swap-shadow {
   box-shadow: inset 5px -4px 0px rgba(0, 0, 0, 0.25);
 }
+
+#content {
+  display: flex !important;
+  align-items: flex-end !important;
+}
+#content canvas {
+  margin-bottom: 0 !important;
+}

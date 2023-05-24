@@ -14,7 +14,7 @@ export default function Header(props: { className?: string }) {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <header
-      className={`py-3 lg:py-4 z-20 w-full bg-dark fixed lg:block text-shadow ${
+      className={`py-3 lg:py-4 z-50 w-full bg-dark fixed lg:block text-shadow ${
         className ? className : ""
       }`}
     >
