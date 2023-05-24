@@ -3,7 +3,13 @@ import MrBlobbyImg from "../../assets/image/mrblobby.webp";
 
 export default function HeroCover() {
   return (
-    <div className="h-[280px] sm:h-[360px] lg:h-[560px] w-full relative pt-20">
+    <div
+      className="h-[280px] sm:h-[360px] lg:h-[560px] w-full relative pt-20"
+      style={{
+        background:
+          "radial-gradient(100% 863.64% at 0% 0%, #620072 50.82%, #B11CC9 100%)",
+      }}
+    >
       <img
         src={Cover}
         className="absolute top-0 left-0 object-cover w-full h-full mt-[60px] lg:mt-20"
