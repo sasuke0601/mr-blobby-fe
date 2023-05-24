@@ -3,6 +3,7 @@ import FacebookIcon from "../../assets/image/icons/facebook.png";
 import DiscordIcon from "../../assets/image/icons/discord.png";
 import TwitterIcon from "../../assets/image/icons/twitter.png";
 import YoutubeIcon from "../../assets/image/icons/youtube.png";
+import TelegramIcon from "../../assets/image/icons/telegram.png";
 import MailIcon from "../../assets/image/icons/mail.png";
 
 export default function Footer(props: { className?: string }) {
@@ -31,6 +32,13 @@ export default function Footer(props: { className?: string }) {
             target="_blank"
           >
             <img src={TwitterIcon} className="w-6 h-6" alt="TwitterIcon" />
+          </Link>
+          <Link
+            to="https://t.me/Blobbytokenofficial"
+            title="Telegram"
+            target="_blank"
+          >
+            <img src={TelegramIcon} className="w-6 h-6" alt="" />
           </Link>
           <Link
             to="https://www.youtube.com/@BGT"
