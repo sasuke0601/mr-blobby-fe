@@ -5,6 +5,7 @@ import NowImg from "../../assets/image/now.webp";
 interface Phase {
   phase: number;
   content: React.ReactNode;
+  pattern?: React.ReactNode;
   className?: string;
   isNow?: boolean;
   isPassed?: boolean;
@@ -15,20 +16,22 @@ const PhaseItem: React.FC<Phase> = ({
   className,
   content,
   isNow,
+  pattern,
   isPassed,
 }) => {
   return (
     <div
-      className={`mx-6 sm:mx-0 p-6 rounded-2xl lg:rounded-3xl bg-[#EBADB3] mb-8 sm:mb-12 ${
+      className={`relative mx-6 sm:mx-0 p-6 rounded-2xl lg:rounded-3xl bg-[#EBADB3] mb-8 sm:mb-12 ${
         className ? className : ""
       }`}
       style={{ boxShadow: "0 0 0 4px #B23943" }}
     >
+      {pattern && pattern}
       <div
-        className="p-5 pb-[60px] bg-white rounded-xl min-h-[200px] sm:min-h-[260px] relative"
+        className="p-5 pb-[60px] bg-dark rounded-xl min-h-[200px] sm:min-h-[260px] relative"
         style={{ boxShadow: "0 0 0 4px #B23943" }}
       >
-        <h2 className="text-secondary font-extrabold text-[28px] sm:text-[40px]">
+        <h2 className="text-primary font-extrabold text-[28px] sm:text-[40px]">
           Phase {phase}
         </h2>
         {content}
