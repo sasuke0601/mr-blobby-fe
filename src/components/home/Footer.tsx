@@ -27,7 +27,7 @@ export default function Footer(props: { className?: string }) {
             <img src={MailIcon} className="w-6 h-6" alt="" />
           </Link>
         </div>
-        <p className="font-secondary text-[18px] text-primary mt-3">
+        <p className="font-secondary sm:text-[18px] text-primary mt-3">
           © Copyright. All rights reserved.
         </p>
       </div>

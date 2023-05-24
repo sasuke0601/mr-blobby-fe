@@ -19,16 +19,16 @@ const PhaseItem: React.FC<Phase> = ({
 }) => {
   return (
     <div
-      className={`p-6 rounded-3xl w-[335px] bg-[#EBADB3] mb-12 ${
+      className={`mx-6 sm:mx-0 p-6 rounded-2xl lg:rounded-3xl bg-[#EBADB3] mb-8 sm:mb-12 ${
         className ? className : ""
       }`}
       style={{ boxShadow: "0 0 0 4px #B23943" }}
     >
       <div
-        className="p-5 pb-[60px] bg-white rounded-xl min-h-[260px] relative"
+        className="p-5 pb-[60px] bg-white rounded-xl min-h-[200px] sm:min-h-[260px] relative"
         style={{ boxShadow: "0 0 0 4px #B23943" }}
       >
-        <h2 className="text-secondary font-extrabold text-[40px]">
+        <h2 className="text-secondary font-extrabold text-[28px] sm:text-[40px]">
           Phase {phase}
         </h2>
         {content}

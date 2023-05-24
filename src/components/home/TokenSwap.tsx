@@ -10,7 +10,7 @@ export default function TokenSwap() {
         background: "linear-gradient(180deg, #2B2B2B 0%, #000000 100%)",
       }}
     >
-      <div className="mx-6 lg:mx-auto max-w-[720px] pt-20 pb-40 lg:pt-40 lg:pb-[200px] ">
+      <div className="mx-6 lg:mx-auto max-w-[720px] pt-20 pb-[100px] lg:pt-40 lg:pb-[200px] ">
         <h1 className="uppercase text-primary font-primary font-extrabold text-[36px] lg:text-[56px] text-center">
           $Blobby token
         </h1>
