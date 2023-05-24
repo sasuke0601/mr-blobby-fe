@@ -12,7 +12,7 @@ export default function Roadmap() {
       <div className="h-[0px] w-full grid place-content-center">
         <img
           src={Ribbon}
-          className="vibrate h-[120px] sm:h-[160px] xl:h-[234px]"
+          className="vibrate h-[120px] w-[222px] sm:h-[160px] sm:w-[296px] xl:h-[234px] xl:w-[433px]"
           alt="MrBlobby bow ribbon"
         />
       </div>
