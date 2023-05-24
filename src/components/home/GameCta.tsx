@@ -35,7 +35,7 @@ export default function GameCta() {
         </Link>
         <img
           src={ArrowBall}
-          className="absolute -bottom-[120px] lg:-right-20 sm:right-[20%] -right-[10%] w-[320px] lg:w-[461px] lg:h-[564px] pointer-events-none"
+          className="absolute -bottom-[50px] lg:-right-20 sm:right-[20%] -right-[10%] w-[320px] h-[320px] lg:w-[460px] lg:h-[460px] pointer-events-none"
           alt=""
         />
       </div>
