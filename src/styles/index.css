@@ -64,3 +64,12 @@
   animation-duration: 0.5s;
   /* animation-iteration-count: infinite; */
 }
+
+.play-hover {
+  transition: all 0.1s;
+}
+
+.play-hover:hover {
+  transform: rotate(-5deg);
+  transition: all 0.1s;
+}

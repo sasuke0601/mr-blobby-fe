@@ -34,16 +34,17 @@ export default function TokenSwap() {
           <Link
             to="https://pancakeswap.finance/swap?inputCurrency=BNB&outputCurrency=0x3EFf429BfCA605E310afb7F444B4cfa8D7D1d112"
             title="Swap on Pancakeswap"
-            className="flex items-center py-4 rounded-lg swap-shadow lg:rounded-xl bg-primary px-9"
           >
-            <img
-              src={PancakeswapImg}
-              className="w-8 h-8 lg:w-12 lg:h-12"
-              alt="pancake logo"
-            />
-            <span className="ml-4 text-dark text-[24px] lg:text-[28px] font-extrabold uppercase">
-              pancakeswap
-            </span>
+            <div className="inline-flex items-center py-4 rounded-lg swap-shadow lg:rounded-xl bg-primary px-9 play-hover">
+              <img
+                src={PancakeswapImg}
+                className="w-8 h-8 lg:w-12 lg:h-12"
+                alt="pancake logo"
+              />
+              <span className="ml-4 text-dark text-[24px] lg:text-[28px] font-extrabold uppercase">
+                pancakeswap
+              </span>
+            </div>
           </Link>
         </div>
       </div>

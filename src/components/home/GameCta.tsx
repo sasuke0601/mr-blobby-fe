@@ -27,11 +27,10 @@ export default function GameCta() {
         <h1 className="text-white font-extrabold text-[32px] lg:text-[72px] uppercase leading-[100%] text-shadow mb-9">
           shooter
         </h1>
-        <Link
-          to="/bubble-shooter"
-          className="button-shadow px-6 lg:px-8 py-2 lg:py-3 uppercase text-[#4B0557] font-extrabold text-[18px] lg:text-[24px] bg-white rounded-xl leading-[120%]"
-        >
-          play now!
+        <Link to="/bubble-shooter">
+          <div className="button-shadow px-6 lg:px-8 py-2 lg:py-3 uppercase text-[#4B0557] font-extrabold text-[18px] lg:text-[24px] bg-white rounded-xl leading-[120%] play-hover inline-block">
+            play now!
+          </div>
         </Link>
         <img
           src={ArrowBall}
