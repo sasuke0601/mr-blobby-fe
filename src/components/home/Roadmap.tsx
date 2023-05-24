@@ -9,11 +9,13 @@ export default function Roadmap() {
   return (
     <div className="relative w-full bg-dark">
       <div className="h-[30px] sm:h-10 xl:h-[60px] w-full bg-white"></div>
-      <img
-        src={Ribbon}
-        className="absolute -translate-x-1/2 left-1/2 xl:-top-[60px] -top-[36px] sm:-top-[50px] h-[120px] sm:h-[160px] xl:h-[234px]"
-        alt="MrBlobby bow ribbon"
-      />
+      <div className="h-[0px] w-full grid place-content-center">
+        <img
+          src={Ribbon}
+          className="vibrate h-[120px] sm:h-[160px] xl:h-[234px]"
+          alt="MrBlobby bow ribbon"
+        />
+      </div>
       <div className="overflow-hidden bg-dark">
         <div className="container mx-auto lg:max-w-[760px] pt-[180px] lg:pt-[240px]">
           <h1 className="font-primary font-extrabold text-[36px] lg:text-[56px] text-center uppercase text-primary">

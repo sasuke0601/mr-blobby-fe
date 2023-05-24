@@ -38,3 +38,29 @@
 #content canvas {
   margin-bottom: 0 !important;
 }
+
+@keyframes vibrate {
+  0% {
+    transform: none;
+  }
+  20% {
+    transform: rotateZ(3deg);
+  }
+  40% {
+    transform: rotateZ(-3deg);
+  }
+  60% {
+    transform: rotateZ(2deg);
+  }
+  80% {
+    transform: rotateZ(-2deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+.vibrate:hover {
+  animation-name: vibrate;
+  animation-duration: 0.5s;
+  /* animation-iteration-count: infinite; */
+}
