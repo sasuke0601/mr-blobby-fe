@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import HeroCover from "../components/home/Banner";
+import HeroCover from "../components/home/HeroCover";
 import Footer from "../components/home/Footer";
 import GameCta from "../components/home/GameCta";
 import Roadmap from "../components/home/Roadmap";
