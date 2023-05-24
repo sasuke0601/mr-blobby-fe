@@ -1,4 +1,5 @@
 import Cover from "../../assets/image/hero-cover.webp";
+import CoverSm from "../../assets/image/hero-cover@sm.png";
 import MrBlobbyImg from "../../assets/image/mrblobby.webp";
 
 export default function HeroCover() {
@@ -12,7 +13,12 @@ export default function HeroCover() {
     >
       <img
         src={Cover}
-        className="absolute top-0 left-0 object-cover w-full h-full mt-[60px] lg:mt-20"
+        className="absolute top-0 left-0 object-cover w-full h-full mt-[60px] lg:mt-20 hidden sm:block"
+        alt="MrBlobby Main page hero cover"
+      />
+      <img
+        src={CoverSm}
+        className="absolute top-0 left-0 object-cover w-full h-full mt-[60px] lg:mt-20 block sm:hidden"
         alt="MrBlobby Main page hero cover"
       />
       <div className="container relative z-10 w-full pt-[60px] sm:pt-20 lg:pt-[120px] mx-auto">

@@ -37,6 +37,7 @@ export default function Header(props: { className?: string }) {
           </div>
           <div className="flex items-center">
             <button
+              type="button"
               className="block w-6 h-6 lg:hidden"
               onClick={() => setIsOpen(!isOpen)}
             >
@@ -126,6 +127,7 @@ export default function Header(props: { className?: string }) {
             }`}
           >
             <button
+              type="button"
               className="absolute z-20 w-6 h-6 right-6 top-10"
               onClick={() => setIsOpen(false)}
             >
