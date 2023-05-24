@@ -1,11 +1,14 @@
 export default function WhyInvest() {
   return (
-    <div className="w-full py-40 bg-dark">
-      <div className="container mx-auto text-primary" style={{ maxWidth: 760 }}>
-        <h1 className="text-center font-secondary text-[56px] font-extrabold">
+    <div className="w-full py-[120px] lg:py-40 bg-dark">
+      <div
+        className="container px-6 lg:px-0 lg:mx-auto text-primary"
+        style={{ maxWidth: 760 }}
+      >
+        <h1 className="text-center font-secondary text-[36px] lg:text-[56px]">
           Why Invest In Blobby?
         </h1>
-        <p className="font-primary text-[20px] font-semibold  mt-[60px]">
+        <p className="font-primary text-[16px] lg:text-[20px] font-semibold  mt-[40px] lg:mt-[60px]">
           <span className="font-bold uppercase">About Mr blobby token</span>
           <br />
           Mr Blobby is a character originally featured on the British Saturday
