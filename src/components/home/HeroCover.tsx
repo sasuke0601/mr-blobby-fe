@@ -7,13 +7,13 @@ export default function HeroCover() {
       <img
         src={Cover}
         className="absolute top-0 left-0 object-cover w-full h-full mt-[60px] lg:mt-20"
-        alt=""
+        alt="MrBlobby Main page hero cover"
       />
       <div className="container relative z-10 w-full pt-[60px] sm:pt-20 lg:pt-[120px] mx-auto">
         <img
           src={MrBlobbyImg}
           className="pointer-events-none absolute -top-10 lg:top-10 -left-[80px] sm:-left-20 lg:left-0 2xl:left-[100px] blobby-animation mt-20 lg:w-[602px] lg:h-[602px] sm:w-[400px] sm:h-[400px] w-[260px] h-[260px]"
-          alt=""
+          alt="simple MrBlobby"
         />
         <h1 className="font-primary text-primary text-[48px] sm:text-[64px] lg:text-[100px] font-extrabold sm:ml-[50%] ml-[130px]">
           MrBlobby

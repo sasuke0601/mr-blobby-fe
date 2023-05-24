@@ -8,7 +8,7 @@ export default function Roadmap() {
       <img
         src={Ribbon}
         className="absolute -translate-x-1/2 left-1/2 xl:-top-[60px] -top-[36px] sm:-top-[50px] h-[120px] sm:h-[160px] xl:h-[234px]"
-        alt=""
+        alt="MrBlobby bow ribbon"
       />
       <div className="bg-dark">
         <div className="container mx-auto lg:max-w-[760px] pt-[180px] lg:pt-[240px]">

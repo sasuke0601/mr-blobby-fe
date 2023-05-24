@@ -5,7 +5,7 @@ import { useState } from "react";
 import FacebookIcon from "../assets/image/icons/facebook.png";
 import DiscordIcon from "../assets/image/icons/discord.png";
 import TwitterIcon from "../assets/image/icons/twitter.png";
-import YoutubuIcon from "../assets/image/icons/youtubu.png";
+import YoutubeIcon from "../assets/image/icons/youtube.png";
 import MailIcon from "../assets/image/icons/mail.png";
 
 export default function Header(props: { className?: string }) {
@@ -26,6 +26,7 @@ export default function Header(props: { className?: string }) {
           <div className="">
             <NavLink
               to="/"
+              title="Home page"
               className={`font-secondary relative z-20 text-${
                 !isOpen ? "primary" : "dark"
               } text-[32px]`}
@@ -43,6 +44,7 @@ export default function Header(props: { className?: string }) {
             <div className="items-center hidden lg:flex">
               <NavLink
                 to="/"
+                title="Home page"
                 className={`font-secondary text-primary px-2 text-[18px] mr-6 ${
                   pathname === "/" ? " border-b-2 border-primary -mb-0.5" : ""
                 }`}
@@ -51,6 +53,7 @@ export default function Header(props: { className?: string }) {
               </NavLink>
               <NavLink
                 to="/whitepaper"
+                title="Whitepaper"
                 className={`font-secondary text-primary px-2 text-[18px] mr-6 ${
                   pathname === "/whitepaper"
                     ? " border-b-2 border-primary -mb-0.5"
@@ -61,6 +64,7 @@ export default function Header(props: { className?: string }) {
               </NavLink>
               <NavLink
                 to="/bubble-shooter"
+                title="Bubble Shooter Game"
                 className={`font-secondary text-primary px-2 text-[18px] mr-6 ${
                   pathname === "/bubble-shooter"
                     ? " border-b-2 border-primary -mb-0.5"
@@ -72,24 +76,38 @@ export default function Header(props: { className?: string }) {
             </div>
             <div className="items-center hidden gap-4 lg:flex">
               <Link
+                title="Facebook"
                 to="https://www.facebook.com/BritainsGotTalent"
                 target="_blank"
               >
                 <img src={FacebookIcon} className="w-6 h-6" alt="" />
               </Link>
               <Link
-                to="https://www.facebook.com/BritainsGotTalent"
+                title="Discord"
+                to="https://discord.gg/mef8XVjm"
                 target="_blank"
               >
                 <img src={DiscordIcon} className="w-6 h-6" alt="" />
               </Link>
-              <Link to="https://twitter.com/TokenBlobby" target="_blank">
+              <Link
+                to="https://twitter.com/TokenBlobby"
+                title="Twitter"
+                target="_blank"
+              >
                 <img src={TwitterIcon} className="w-6 h-6" alt="" />
               </Link>
-              <Link to="https://www.youtube.com/@BGT" target="_blank">
-                <img src={YoutubuIcon} className="w-6 h-6" alt="" />
+              <Link
+                to="https://www.youtube.com/@BGT"
+                title="Youtube"
+                target="_blank"
+              >
+                <img src={YoutubeIcon} className="w-6 h-6" alt="" />
               </Link>
-              <Link to="mailto:kraftwork75@gmail.com" target="_blank">
+              <Link
+                to="mailto:kraftwork75@gmail.com"
+                title="Mail"
+                target="_blank"
+              >
                 <img src={MailIcon} className="w-6 h-6" alt="" />
               </Link>
             </div>
@@ -109,6 +127,7 @@ export default function Header(props: { className?: string }) {
               <div className="flex flex-col items-center">
                 <NavLink
                   to="/"
+                  title="Home page"
                   className={`font-secondary text-dark px-2 text-[24px] mb-6 ${
                     pathname === "/" ? " border-b-2 border-dark -mb-0.5" : ""
                   }`}
@@ -117,6 +136,7 @@ export default function Header(props: { className?: string }) {
                 </NavLink>
                 <NavLink
                   to="/whitepaper"
+                  title="Whitepaper page"
                   className={`font-secondary text-dark px-2 text-[24px] mb-6  ${
                     pathname === "/whitepaper"
                       ? " border-b-2 border-dark -mb-0.5"
@@ -127,6 +147,7 @@ export default function Header(props: { className?: string }) {
                 </NavLink>
                 <NavLink
                   to="/bubble-shooter"
+                  title="Bubble Shooter Game"
                   className={`font-secondary text-dark px-2 text-[24px] mb-6  ${
                     pathname === "/bubble-shooter"
                       ? " border-b-2 border-dark -mb-0.5"
@@ -138,6 +159,7 @@ export default function Header(props: { className?: string }) {
               </div>
               <div className="absolute flex gap-6 bottom-10">
                 <Link
+                  title="Facebook"
                   to="https://www.facebook.com/BritainsGotTalent"
                   target="_blank"
                 >
@@ -148,7 +170,8 @@ export default function Header(props: { className?: string }) {
                   />
                 </Link>
                 <Link
-                  to="https://www.facebook.com/BritainsGotTalent"
+                  title="Discord"
+                  to="https://discord.gg/mef8XVjm"
                   target="_blank"
                 >
                   <img
@@ -157,21 +180,33 @@ export default function Header(props: { className?: string }) {
                     alt=""
                   />
                 </Link>
-                <Link to="https://twitter.com/TokenBlobby" target="_blank">
+                <Link
+                  to="https://twitter.com/TokenBlobby"
+                  title="Twitter"
+                  target="_blank"
+                >
                   <img
                     src={TwitterIcon}
                     className="w-6 h-6  brightness-[0.2]"
                     alt=""
                   />
                 </Link>
-                <Link to="https://www.youtube.com/@BGT" target="_blank">
+                <Link
+                  to="https://www.youtube.com/@BGT"
+                  title="Youtube"
+                  target="_blank"
+                >
                   <img
-                    src={YoutubuIcon}
+                    src={YoutubeIcon}
                     className="w-6 h-6  brightness-[0.2]"
                     alt=""
                   />
                 </Link>
-                <Link to="mailto:kraftwork75@gmail.com" target="_blank">
+                <Link
+                  to="mailto:kraftwork75@gmail.com"
+                  title="Mail"
+                  target="_blank"
+                >
                   <img
                     src={MailIcon}
                     className="w-6 h-6  brightness-[0.2]"

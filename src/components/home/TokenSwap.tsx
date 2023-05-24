@@ -22,6 +22,7 @@ export default function TokenSwap() {
           <span>
             <Link
               to="https://www.dextools.io/app/en/bnb/pair-explorer/0xf457d9253b700ca42c697f191012af7b152e100e"
+              title="View Dextools State"
               target="_blank"
               className="ml-2 text-[#9C1EFF] text-[20px] lg:text-[24px] font-bold underline"
             >
@@ -30,25 +31,31 @@ export default function TokenSwap() {
           </span>
         </p>
         <div className="grid w-full mt-10 place-content-center">
-          <button className="flex items-center py-4 rounded-lg swap-shadow lg:rounded-xl bg-primary px-9">
+          <Link
+            to="https://pancakeswap.finance/swap?inputCurrency=BNB&outputCurrency=0x3EFf429BfCA605E310afb7F444B4cfa8D7D1d112"
+            title="Swap on Pancakeswap"
+            className="flex items-center py-4 rounded-lg swap-shadow lg:rounded-xl bg-primary px-9"
+          >
             <img
               src={PancakeswapImg}
               className="w-8 h-8 lg:w-12 lg:h-12"
-              alt=""
+              alt="pancake logo"
             />
             <span className="ml-4 text-dark text-[24px] lg:text-[28px] font-extrabold uppercase">
               pancakeswap
             </span>
-          </button>
+          </Link>
         </div>
       </div>
       <img
         src={BnbImg}
         className="absolute -rotate-[30deg] bottom-5 right-20 z-20 hidden lg:block"
+        alt="bnb image"
       />
       <img
         src={BnbImg}
         className="absolute rotate-[30deg] bottom-7 right-5 z-10 w-[90px] h-[90px] blur-sm hidden lg:block"
+        alt="bnb image blue effect"
       />
     </div>
   );

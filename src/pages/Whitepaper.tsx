@@ -39,17 +39,17 @@ function Whitepaper() {
             <img
               src={CoinOne}
               className="absolute bottom-10 right-[12%] blur-sm"
-              alt=""
+              alt="coin pattern"
             />
             <img
               src={CoinTwo}
               className="absolute bottom-5 left-[10%]  hidden md:block"
-              alt=""
+              alt="coin pattern"
             />
             <img
               src={CoinThree}
               className="absolute bottom-3 right-0 md:right-[30%] -rotate-12 w-20 h-20"
-              alt=""
+              alt="coin pattern"
             />
           </div>
           <div className="relative w-full pt-20 bg-dark">
