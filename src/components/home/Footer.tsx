@@ -1,11 +1,9 @@
 import { Link } from "react-router-dom";
-import {
-  DiscordIcon,
-  FacebookIcon,
-  MailIcon,
-  TwitterIcon,
-  YoutubuIcon,
-} from "../SvgIcons";
+import FacebookIcon from "../../assets/image/icons/facebook.png";
+import DiscordIcon from "../../assets/image/icons/discord.png";
+import TwitterIcon from "../../assets/image/icons/twitter.png";
+import YoutubuIcon from "../../assets/image/icons/youtubu.png";
+import MailIcon from "../../assets/image/icons/mail.png";
 
 export default function Footer(props: { className?: string }) {
   const { className } = props;
@@ -14,19 +12,19 @@ export default function Footer(props: { className?: string }) {
       <div className="flex flex-col items-center justify-center">
         <div className="flex items-center gap-4">
           <Link to="https://www.facebook.com/BritainsGotTalent" target="_blank">
-            <FacebookIcon />
+            <img src={FacebookIcon} className="w-6 h-6" alt="" />
           </Link>
           <Link to="https://www.facebook.com/BritainsGotTalent" target="_blank">
-            <DiscordIcon />
+            <img src={DiscordIcon} className="w-6 h-6" alt="" />
           </Link>
           <Link to="https://twitter.com/TokenBlobby" target="_blank">
-            <TwitterIcon />
+            <img src={TwitterIcon} className="w-6 h-6" alt="" />
           </Link>
           <Link to="https://www.youtube.com/@BGT" target="_blank">
-            <YoutubuIcon />
+            <img src={YoutubuIcon} className="w-6 h-6" alt="" />
           </Link>
           <Link to="mailto:kraftwork75@gmail.com" target="_blank">
-            <MailIcon />
+            <img src={MailIcon} className="w-6 h-6" alt="" />
           </Link>
         </div>
         <p className="font-secondary text-[18px] text-primary mt-3">
