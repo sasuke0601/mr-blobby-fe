@@ -19,11 +19,11 @@ function Whitepaper() {
           }}
         >
           <div
-            className="h-[180px] -mt-[90px]"
+            className="h-[180px] -mt-[20px] lg:-mt-[90px]"
             style={{ background: `url(${BubblesImg})` }}
           ></div>
-          <div className="max-w-[760px] mx-auto mt-5 relative pb-[60px]">
-            <h1 className="font-extrabold text-shadow font-primary text-white text-[48px] ml-[200px] mt-10">
+          <div className="max-w-[760px] mx-auto mt-5 relative pb-[60px] z-20">
+            <h1 className="font-extrabold text-shadow font-primary text-white text-[36px] sm:text-[48px] ml-[0] text-center md:text-left md:ml-[200px] mt-10">
               Blobby Token
               <br />
               WhitePaper
@@ -35,20 +35,24 @@ function Whitepaper() {
             alt=""
           />
           <img
-            src={CoinThree}
-            className="absolute bottom-3 right-[30%] -rotate-12 w-20 h-20"
+            src={CoinTwo}
+            className="absolute bottom-5 left-[10%]  hidden md:block"
             alt=""
           />
-          <img src={CoinTwo} className="absolute bottom-5 left-[10%] " alt="" />
+          <img
+            src={CoinThree}
+            className="absolute bottom-3 right-0 md:right-[30%] -rotate-12 w-20 h-20"
+            alt=""
+          />
         </div>
         <div className="relative w-full pt-20 bg-dark">
-          <div className="max-w-[760px] mx-auto mt-5 pb-[60px] relative">
+          <div className=" md:max-w-[760px] mx-6 lg:mx-auto mt-5 pb-[60px] relative">
             <img
               src={MrBlobbyHead}
-              className="absolute -top-[260px] -left-10"
+              className="absolute -top-[260px] md:-left-10 w-[140px] lg:w-[190px] lg:h-[248px]"
               alt=""
             />
-            <p className="text-primary font-semibold text-[18px]">
+            <p className="text-primary font-semibold text-[16px] sm:text-[18px]">
               <span className="font-bold text-[20px]">Introduction</span>
               <br />
               Blobby is a decentralized ecosystem built on the Binance Smart
