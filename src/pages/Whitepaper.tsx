@@ -1,9 +1,9 @@
 import Header from "../components/Header";
-import BubblesImg from "../assets/image/bubbles-sm.png";
-import MrBlobbyHead from "../assets/image/mrblobby-head.png";
-import CoinOne from "../assets/image/bitcoin-1.png";
+import BubblesImg from "../assets/image/bubbles-sm.webp";
+import MrBlobbyHead from "../assets/image/mrblobby-head.webp";
+import CoinOne from "../assets/image/bitcoin-1.webp";
 import CoinTwo from "../assets/image/bitcoin-2.png";
-import CoinThree from "../assets/image/bnb.png";
+import CoinThree from "../assets/image/bnb.webp";
 import Footer from "../components/home/Footer";
 import { Helmet } from "react-helmet-async";
 

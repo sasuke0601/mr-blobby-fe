@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import PancakeswapImg from "../../assets/image/pancakeswap.svg";
-import BnbImg from "../../assets/image/bnb.png";
+import BnbImg from "../../assets/image/bnb.webp";
 
 export default function TokenSwap() {
   return (

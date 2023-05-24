@@ -1,6 +1,6 @@
-import BubblesImg from "../../assets/image/bubbles-lg.png";
-import BubblesImgSm from "../../assets/image/bubbles-sm.png";
-import ArrowBall from "../../assets/image/arrow-ball.png";
+import BubblesImg from "../../assets/image/bubbles-lg.webp";
+import BubblesImgSm from "../../assets/image/bubbles-sm.webp";
+import ArrowBall from "../../assets/image/arrow-ball.webp";
 import { Link } from "react-router-dom";
 
 export default function GameCta() {

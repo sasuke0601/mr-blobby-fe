@@ -1,6 +1,6 @@
 import React from "react";
 import CheckIcon from "../../assets/image/checked.svg";
-import NowImg from "../../assets/image/now.png";
+import NowImg from "../../assets/image/now.webp";
 
 interface Phase {
   phase: number;

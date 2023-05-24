@@ -1,7 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import Header from "../components/Header";
 import Footer from "../components/home/Footer";
-// import Blobby from "../assets/image/mrblobby-1.png";
 
 function BubbleShooter() {
   return (
@@ -19,11 +18,6 @@ function BubbleShooter() {
               width="100%"
               height="600"
             ></iframe>
-            {/* <img
-            src={Blobby}
-            className="absolute bottom-0 right-0 w-[28%]"
-            alt=""
-          /> */}
           </div>
         </div>
         <Footer className="" />

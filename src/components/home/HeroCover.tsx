@@ -1,5 +1,5 @@
-import Cover from "../../assets/image/hero-cover.jpg";
-import MrBlobbyImg from "../../assets/image/mrblobby.png";
+import Cover from "../../assets/image/hero-cover.webp";
+import MrBlobbyImg from "../../assets/image/mrblobby.webp";
 
 export default function HeroCover() {
   return (
